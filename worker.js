@@ -57,7 +57,7 @@ const DEFAULTS = {
 
   // Daily Piggy Bank Report (one summary post a day)
   REPORT_ENABLED: "1", // 0 = off
-  REPORT_HOUR_UTC: "18", // posts on the first run at or after this hour (18 UTC = 21:00 Cyprus)
+  REPORT_HOUR_UTC: "18", // posts on the first run at or after this hour (18 = 18:00 UTC)
   REWARD_TRACKER: "0xb1f681417045ef6f3afdaf9c74d870fb7af3b50f", // Argus reward contract that holds holders' cirBTC
   CLAIM_URL: "https://argus.world/token/0xeF7e29A61996f7eed5cC53352B0296E7b60B09eB",
 
