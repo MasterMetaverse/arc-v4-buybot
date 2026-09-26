@@ -1,0 +1,11 @@
+{
+  // Cloudflare Worker config. Replace database_id with your own D1 database's ID.
+  "name": "arc-v4-buybot",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-24",
+  "d1_databases": [
+    { "binding": "DB", "database_name": "arc-v4-buybot", "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID" }
+  ],
+  "triggers": { "crons": ["* * * * *"] },
+  "observability": { "enabled": true }
+}
